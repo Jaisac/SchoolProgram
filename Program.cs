@@ -85,23 +85,10 @@ namespace SchoolProgram
             Console.WriteLine(Student1.Test());
             Console.WriteLine(Teacher1.Test());
 
-            //Using the method WriteFile() and ReadFile() to write and read the information above
-
-
-            
+            //Using the method WriteFile() and ReadFile() to write and read the information above 
+            //in a text file.
             UProgram1.Degree_A[0].Course_A[0].Students_A[0].WriteFile("Person.txt");
             Student1.ReadFile("Person.txt");
-           
-
-         
-               
-
-                   
-            
-
-
-
-
             Console.ReadKey();
             
         }
